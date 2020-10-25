@@ -1,5 +1,7 @@
 class App extends React.Component {
   render() {
-    return (<HelloWorld/>);
+    return (
+      <Courses/>
+    );
   }
 }
