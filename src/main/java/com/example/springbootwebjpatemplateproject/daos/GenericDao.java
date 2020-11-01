@@ -2,7 +2,8 @@ package com.example.springbootwebjpatemplateproject.daos;
 
 import java.sql.*;
 
-import org.json.simple.*;
+import net.minidev.json.JSONArray;
+import net.minidev.json.JSONObject;
 import org.springframework.stereotype.Service;
 
 @Service
