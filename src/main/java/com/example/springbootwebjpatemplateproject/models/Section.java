@@ -17,6 +17,16 @@ public class Section {
     @JsonIgnore
     private Course course;
 
+    @Transient
+    public Integer getCourseId() {
+        return course.getCourseId();
+    }
+
+    @Transient
+    public String getCourseTitle() {
+        return course.getTitle();
+    }
+
     @OneToMany(mappedBy="section")
     private List<Enrollment> students;
 
