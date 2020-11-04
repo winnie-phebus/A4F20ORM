@@ -3,6 +3,7 @@ package com.example.springbootwebjpatemplateproject.models;
 import org.hibernate.annotations.GeneratorType;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name="courses")
@@ -12,6 +13,16 @@ public class Course {
     @Column(name="id")
     private Integer courseId;
     private String title;
+    @OneToMany(mappedBy = "course")
+    private List<Section> sections;
+
+    public List<Section> getSections() {
+        return sections;
+    }
+
+    public void setSections(List<Section> sections) {
+        this.sections = sections;
+    }
 
     public Integer getCourseId() {
         return courseId;
