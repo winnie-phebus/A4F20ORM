@@ -1,4 +1,4 @@
-package com.example.springbootwebjpatemplateproject.models;
+package com.example.wap.models;
 
 import java.io.Serializable;
 

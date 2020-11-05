@@ -1,6 +1,6 @@
-package com.example.springbootwebjpatemplateproject.repositories;
+package com.example.wap.repositories;
 
-import com.example.springbootwebjpatemplateproject.models.Student;
+import com.example.wap.models.Student;
 import org.springframework.data.repository.CrudRepository;
 
 public interface StudentRepository

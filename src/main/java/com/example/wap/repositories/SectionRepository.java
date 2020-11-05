@@ -1,6 +1,6 @@
-package com.example.springbootwebjpatemplateproject.repositories;
+package com.example.wap.repositories;
 
-import com.example.springbootwebjpatemplateproject.models.Section;
+import com.example.wap.models.Section;
 import org.springframework.data.repository.CrudRepository;
 
 public interface SectionRepository

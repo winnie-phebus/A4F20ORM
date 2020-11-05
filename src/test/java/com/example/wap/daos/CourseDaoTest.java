@@ -1,6 +1,6 @@
-package com.example.springbootwebjpatemplateproject.daos;
+package com.example.wap.daos;
 
-import com.example.springbootwebjpatemplateproject.models.Course;
+import com.example.wap.models.Course;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 

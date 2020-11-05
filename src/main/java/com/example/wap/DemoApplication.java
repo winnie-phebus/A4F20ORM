@@ -1,4 +1,4 @@
-package com.example.springbootwebjpatemplateproject;
+package com.example.wap;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

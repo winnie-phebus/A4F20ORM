@@ -1,7 +1,7 @@
-package com.example.springbootwebjpatemplateproject.controllers;
+package com.example.wap.controllers;
 
-import com.example.springbootwebjpatemplateproject.models.Course;
-import com.example.springbootwebjpatemplateproject.repositories.CourseRepository;
+import com.example.wap.models.Course;
+import com.example.wap.repositories.CourseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

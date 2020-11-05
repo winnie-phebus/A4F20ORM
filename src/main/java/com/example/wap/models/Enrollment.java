@@ -1,9 +1,8 @@
-package com.example.springbootwebjpatemplateproject.models;
+package com.example.wap.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
-import java.sql.Date;
 
 @Entity
 @Table(name="enrollments")

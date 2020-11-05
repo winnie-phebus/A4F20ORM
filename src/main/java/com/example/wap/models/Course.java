@@ -1,6 +1,4 @@
-package com.example.springbootwebjpatemplateproject.models;
-
-import org.hibernate.annotations.GeneratorType;
+package com.example.wap.models;
 
 import javax.persistence.*;
 import java.util.List;

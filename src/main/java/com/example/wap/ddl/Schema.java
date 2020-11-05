@@ -1,4 +1,4 @@
-package com.example.springbootwebjpatemplateproject.ddl;
+package com.example.wap.ddl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
