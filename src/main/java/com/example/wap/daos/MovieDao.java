@@ -11,26 +11,31 @@ import org.springframework.web.bind.annotation.RestController;
 public class MovieDao {
     @Autowired
     MovieRepository movieRepository;
+
     @GetMapping("/findAllMovies")
     public Iterable<Movie> findAllMovies() {
         return movieRepository.findAll();
     }
+
     @GetMapping("/findMovieById/{id}")
     public Movie findMovieById(
             @PathVariable("id") Integer id) {
         return movieRepository.findById(id).get();
     }
+
     @GetMapping("/deleteMovie/{id}")
     public void deleteMovie(
             @PathVariable("id") Integer id) {
         movieRepository.deleteById(id);
     }
+
     @GetMapping("/createMovie")
     public Movie createMovie() {
         Movie movie = new Movie();
         movie.setTitle("New Movie");
         return movieRepository.save(movie);
     }
+
     @GetMapping("/renameMovie/{id}/{newTitle}")
     public Movie renameMovie(
             @PathVariable("id") Integer id,
